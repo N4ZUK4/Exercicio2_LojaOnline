@@ -18,6 +18,9 @@
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
+        <div class="carrinho-info">
+            <span>Carrinho: <strong id="contador">0</strong> itens</span>
+        </div>
     </header>
 
     <main>
@@ -33,21 +36,21 @@
                     <h3>Smartphone Pro X</h3>
                     <p>Smartphone de última geração com ecrã AMOLED de 6.7", 256GB de armazenamento e câmara de 108MP.</p>
                     <p class="preco">599,99 €</p>
-                    <button>Adicionar ao Carrinho</button>
+                    <button onclick="adicionarAoCarrinho('Smartphone Pro X')">Adicionar ao Carrinho</button>
                 </article>
 
                 <article class="produto">
                     <h3>Auscultadores Wireless</h3>
                     <p>Auscultadores com cancelamento de ruído ativo, autonomia de 30 horas e som de alta fidelidade.</p>
                     <p class="preco">149,99 €</p>
-                    <button>Adicionar ao Carrinho</button>
+                    <button onclick="adicionarAoCarrinho('Auscultadores Wireless')">Adicionar ao Carrinho</button>
                 </article>
 
                 <article class="produto">
                     <h3>Portátil UltraBook</h3>
                     <p>Portátil leve e potente com processador Intel i7, 16GB RAM, SSD 512GB e ecrã de 14".</p>
                     <p class="preco">899,99 €</p>
-                    <button>Adicionar ao Carrinho</button>
+                    <button onclick="adicionarAoCarrinho('Portátil UltraBook')">Adicionar ao Carrinho</button>
                 </article>
             </div>
         </section>
@@ -69,5 +72,7 @@
         <p>&copy; 2026 TechStore - Todos os direitos reservados.</p>
         <p>Desenvolvido no âmbito do Exercício 2 - Desenvolvimento HTML e controlo de versões com GitHub</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
